@@ -1,0 +1,9 @@
+<div class="products py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-md-6" *ngFor="let product of products; trackBy: itemByID">
+                <app-product-card [product]="product" />
+            </div>
+        </div>
+    </div>
+</div>
