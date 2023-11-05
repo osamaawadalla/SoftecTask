@@ -1,0 +1,14 @@
+.orders-list {
+    padding: 20px;
+    .order-item {
+        border: 1px solid #e0e0e0;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px 0;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        p {
+            margin: 0;
+        }
+    }
+}
