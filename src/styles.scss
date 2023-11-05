@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* import main colors */
+@import "./colors";
+
+/* add custom bootstrap classes */
+@import "./custom-bootstrap-utilities";
+
+/* import bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+/* root vars */
+:root {
+    --primary: #FF7300;
+    --secondary: #6C757D;
+    --danger: #F2656D;
+    --bs-link-color-rgb: #F2656D;
+    font-size: 16px;
+}
